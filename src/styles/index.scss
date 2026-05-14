@@ -2,14 +2,14 @@ $rounded-shape: 50%;
 $align-translate-X: translateX(-50%);
 $stop-watch-size: 80vmin;
 
-@mixin position() {
+@mixin position {
   position: absolute;
   bottom: 50%;
   left: 50%;
   transform-origin: bottom;
 }
 
-@mixin properties-turn-hand() {
+@mixin properties-turn-hand {
   animation-iteration-count: infinite;
   animation-name: turn-hand;
 }
